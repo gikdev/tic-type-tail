@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tic Tac Toe | TypeScript & TailwindCSS</title>
+  
+  <link rel="stylesheet" href="dist/tw.css">
+</head>
+<body class="text-white bg-stone-900 p-3 flex flex-col items-center text-center">
+  <!-- text-red-400 bg-white bg-black text-blue-400  -->
+  <h1 class="text-4xl my-3">Tic Tac Toe</h1>
+  <div class="w-72 h-72 bg-stone-800 grid grid-cols-3 grid-rows-3 gap-none">
+    <div class="cell" data-index="0"></div>
+    <div class="cell" data-index="1"></div>
+    <div class="cell" data-index="2"></div>
+    <div class="cell" data-index="3"></div>
+    <div class="cell" data-index="4"></div>
+    <div class="cell" data-index="5"></div>
+    <div class="cell" data-index="6"></div>
+    <div class="cell" data-index="7"></div>
+    <div class="cell" data-index="8"></div>
+  </div>
+  <p class="my-2 text-lg font-bold" data-status></p>
+  <button class="border-x border-pink-400 border-solid w-60 px-3 py-2 font-bold text-pink-400" data-reset type="reset">
+    Reset
+  </button>
+  
+  <script src="dist/main.js"></script>
+  <script src="/sdcard/1/web/lib/js/eruda.min.js" onload="eruda.init()"></script>
+</body>
+</html>

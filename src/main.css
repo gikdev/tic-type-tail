@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .cell {
+    @apply border-2 border-emerald-400 border-solid text-7xl active:bg-stone-700 transition flex justify-center items-center
+  }
+}

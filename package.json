@@ -1,0 +1,13 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsc src/main.ts -outDir dist/ -w",
+    "tw": "npx tailwindcss -i src/main.css -o dist/tw.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
